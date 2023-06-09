@@ -27,27 +27,70 @@ namespace Semaforo
         int bandera = 1;
         private void btnEncender_Click(object sender, RoutedEventArgs e)
         {
-            
+
             if (bandera == 1)
             {
-                elpsRojo.Fill = Brushes.Red;
-                elpsAmarillo.Fill = Brushes.White;
-                elpsVerde.Fill = Brushes.White;
+                elps1.Fill = Brushes.White;
+                elps2.Fill = Brushes.Black;
+                elps3.Fill = Brushes.Black;
+                elps4.Fill = Brushes.Black;
+                elps5.Fill = Brushes.Black;
+                elps6.Fill = Brushes.Black;
                 bandera++;
             }
             else if (bandera == 2)
             {
-                elpsRojo.Fill = Brushes.White;
-                elpsAmarillo.Fill = Brushes.Yellow;
-                elpsVerde.Fill = Brushes.White;
+                
+                elps1.Fill = Brushes.Black;
+                elps2.Fill = Brushes.Gainsboro;
+                elps3.Fill = Brushes.Black;
+                elps4.Fill = Brushes.Black;
+                elps5.Fill = Brushes.Black;
+                elps6.Fill = Brushes.Black;
                 bandera++;
             }
             else if (bandera == 3)
             {
-                elpsRojo.Fill = Brushes.White;
-                elpsAmarillo.Fill = Brushes.White;
-                elpsVerde.Fill = Brushes.Green;
-                bandera = 1;
+                elps1.Fill = Brushes.Black;
+                elps2.Fill = Brushes.Black;
+                elps3.Fill = Brushes.LightGray;
+                elps4.Fill = Brushes.Black;
+                elps5.Fill = Brushes.Black;
+                elps6.Fill = Brushes.Black;
+                bandera++;
+
+            }
+            else if (bandera == 4)
+            {
+                elps1.Fill = Brushes.Black;
+                elps2.Fill = Brushes.Black;
+                elps3.Fill = Brushes.Black;
+                elps4.Fill = Brushes.Silver;
+                elps5.Fill = Brushes.Black;
+                elps6.Fill = Brushes.Black;
+                bandera++;
+
+            }
+            else if (bandera == 5)
+            {
+                elps1.Fill = Brushes.Black;
+                elps2.Fill = Brushes.Black;
+                elps3.Fill = Brushes.Black;
+                elps4.Fill = Brushes.Black;
+                elps5.Fill = Brushes.DarkGray;
+                elps6.Fill = Brushes.Black;
+                bandera++;
+
+            }
+            else if (bandera == 6)
+            {
+                elps1.Fill = Brushes.Black;
+                elps2.Fill = Brushes.Black;
+                elps3.Fill = Brushes.Black;
+                elps4.Fill = Brushes.Black;
+                elps5.Fill = Brushes.Black;
+                elps6.Fill = Brushes.Gray;
+                bandera=1;
 
             }
         }

@@ -6,12 +6,18 @@
         xmlns:local="clr-namespace:Semaforo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Color x:Key="Luna">#FF4E6B9E</Color>
+    </Window.Resources>
     <Grid>
-        <Rectangle x:Name="rctFondo" HorizontalAlignment="Left" Height="394" Margin="319,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="187" Fill="Black"/>
-        <Ellipse x:Name="elpsRojo" HorizontalAlignment="Left" Height="127" Margin="346,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
-        <Ellipse x:Name="elpsAmarillo" HorizontalAlignment="Left" Height="127" Margin="346,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
-        <Ellipse x:Name="elpsVerde" HorizontalAlignment="Left" Height="127" Margin="346,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
-        <Button x:Name="btnEncender" Content="ENCENDER" HorizontalAlignment="Left" Margin="621,206,0,0" VerticalAlignment="Top" Height="63" Width="110" Click="btnEncender_Click"/>
+        <Rectangle x:Name="rctFondo" HorizontalAlignment="Left" Height="414" Margin="10,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="790" Fill="Black"/>
+        <Ellipse x:Name="elps1" HorizontalAlignment="Left" Height="49" Margin="15,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="50" Fill="#FFFBF8F8"/>
+        <Ellipse x:Name="elps2" HorizontalAlignment="Left" Height="76" Margin="79,37,0,0" Stroke="Black" VerticalAlignment="Top" Width="79" Fill="Black"/>
+        <Ellipse x:Name="elps3" HorizontalAlignment="Left" Height="87" Margin="179,93,0,0" Stroke="Black" VerticalAlignment="Top" Width="85" Fill="#FF040404"/>
+        <Button x:Name="btnEncender" Content="ENCENDER" HorizontalAlignment="Left" Margin="663,37,0,0" VerticalAlignment="Top" Height="63" Width="110" Click="btnEncender_Click" RenderTransformOrigin="0.655,-0.047"/>
+        <Ellipse x:Name="elps4" HorizontalAlignment="Left" Height="114" Margin="293,136,0,0" Stroke="Black" VerticalAlignment="Top" Width="112" Fill="Black"/>
+        <Ellipse x:Name="elps5" HorizontalAlignment="Left" Height="136" Margin="439,185,0,0" Stroke="Black" VerticalAlignment="Top" Width="141" Fill="Black" RenderTransformOrigin="0.183,-0.149"/>
+        <Ellipse x:Name="elps6" HorizontalAlignment="Left" Height="165" Margin="604,255,0,0" Stroke="Black" VerticalAlignment="Top" Width="169" Fill="Black" RenderTransformOrigin="0.03,0.268"/>
 
     </Grid>
 </Window>
