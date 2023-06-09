@@ -11,7 +11,7 @@
         <Ellipse x:Name="elpsRojo" HorizontalAlignment="Left" Height="127" Margin="346,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
         <Ellipse x:Name="elpsAmarillo" HorizontalAlignment="Left" Height="127" Margin="346,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
         <Ellipse x:Name="elpsVerde" HorizontalAlignment="Left" Height="127" Margin="346,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="134" Fill="#FFFBF8F8"/>
-        <Button x:Name="btnEncender" Content="ENCENDER" HorizontalAlignment="Left" Margin="621,206,0,0" VerticalAlignment="Top" Height="63" Width="110"/>
+        <Button x:Name="btnEncender" Content="ENCENDER" HorizontalAlignment="Left" Margin="621,206,0,0" VerticalAlignment="Top" Height="63" Width="110" Click="btnEncender_Click"/>
 
     </Grid>
 </Window>

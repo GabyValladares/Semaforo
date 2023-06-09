@@ -24,5 +24,32 @@ namespace Semaforo
         {
             InitializeComponent();
         }
+        int bandera = 1;
+        private void btnEncender_Click(object sender, RoutedEventArgs e)
+        {
+            
+            if (bandera == 1)
+            {
+                elpsRojo.Fill = Brushes.Red;
+                elpsAmarillo.Fill = Brushes.White;
+                elpsVerde.Fill = Brushes.White;
+                bandera++;
+            }
+            else if (bandera == 2)
+            {
+                elpsRojo.Fill = Brushes.White;
+                elpsAmarillo.Fill = Brushes.Yellow;
+                elpsVerde.Fill = Brushes.White;
+                bandera++;
+            }
+            else if (bandera == 3)
+            {
+                elpsRojo.Fill = Brushes.White;
+                elpsAmarillo.Fill = Brushes.White;
+                elpsVerde.Fill = Brushes.Green;
+                bandera = 1;
+
+            }
+        }
     }
 }
